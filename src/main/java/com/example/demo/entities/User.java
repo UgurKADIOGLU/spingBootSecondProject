@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class User {
     @Id
-    Long id;
+    Long user_id;
     String userName;
     String password;
 }
